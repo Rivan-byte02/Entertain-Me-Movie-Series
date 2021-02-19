@@ -1,0 +1,36 @@
+.content-div {
+  background-image: var(--image);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.content-div:hover {
+  background-image: linear-gradient(
+      to right,
+      rgba(243, 246, 242, 0.63),
+      hsla(160, 7%, 55%, 0.801)
+    ),
+    var(--image);
+}
+
+.image-cover {
+  height: 260px;
+}
+
+.content-div:hover .fd-cl {
+  opacity: 0.2;
+}
+
+.content-div:hover .fd-cl button {
+  opacity: 1;
+}
+
+.content-div:hover .fd-sh {
+  opacity: 1;
+}
+
+.fd-cl span.overview {
+  margin-top: 2em;
+  height: 100px;
+  overflow-y: auto;
+}
